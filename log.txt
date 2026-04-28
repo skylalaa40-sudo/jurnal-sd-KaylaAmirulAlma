@@ -1,0 +1,11 @@
+commit 5098c2ab75ee56290039d703d1652cadd24af35a
+Author: Kayla amirul alma <2313020242@mhs.univ.ac.id>
+Date:   Sat Apr 11 23:04:53 2026 +0700
+
+    catatan: menetukan peran dalam tim
+
+commit 5b1e112de6a93691b91fc5433a47028724d598a1
+Author: Kayla amirul alma <2313020242@mhs.univ.ac.id>
+Date:   Sat Apr 11 22:58:59 2026 +0700
+
+    menambahkan log belajar pertama
