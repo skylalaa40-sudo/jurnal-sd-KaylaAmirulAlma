@@ -9,3 +9,5 @@ Author: Kayla amirul alma <2313020242@mhs.univ.ac.id>
 Date:   Sat Apr 11 22:58:59 2026 +0700
 
     menambahkan log belajar pertama
+
+Update dari GitHub
