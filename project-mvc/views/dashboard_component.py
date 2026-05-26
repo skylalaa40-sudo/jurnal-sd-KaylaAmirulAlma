@@ -2,7 +2,7 @@ def render_dashboard(data_list, is_loading=False):
     print("--- DASHBOARD APLIKASI ---")
 
     if is_loading:
-        print("Mohon Tunggu... (Loading Data)")
+        print("Mohon Tunggu...")
         return
 
     if not data_list:
