@@ -1,1 +1,5 @@
 Homy/ 
+
+.env
+__pycache__/
+*.log
