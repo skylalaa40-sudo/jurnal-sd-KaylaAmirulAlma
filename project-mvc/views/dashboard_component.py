@@ -21,7 +21,7 @@ def fetch_data_from_api(api_function):
         if response["status"] == "success":
             return response["data"]
         else:
-            raise Exception("API Return Error")
+            raise Exception(response.get("message", "API Return Error"))
 
     except Exception as e:
         print(f"[Error] Gagal Integrasi: {e}")
