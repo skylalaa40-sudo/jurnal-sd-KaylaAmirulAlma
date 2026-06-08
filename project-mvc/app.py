@@ -27,3 +27,15 @@ if __name__ == "__main__":
 
     # Render ulang setelah data masuk
     render_dashboard(app_state["items"], app_state["is_loading"])
+
+from controllers.api_handler import get_users
+from views.dashboard_component import (
+    fetch_data_from_api,
+    render_dashboard
+)
+
+if __name__ == "__main__":
+    data = fetch_data_from_api(get_users)
+
+    if data:
+        render_dashboard(data)
