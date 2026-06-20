@@ -1,4 +1,11 @@
+import os
 from views.dashboard_component import render_dashboard
+
+user_name = os.getenv("APP_USER", "Guest")
+app_env = os.getenv("APP_ENV", "development")
+if __name__ == "__main__":
+    print(f"Halo {user_name}!")
+    print(f"Status Lingkungan: {app_env}")
 
 # Simulasi state aplikasi
 app_state = {
