@@ -7,4 +7,4 @@ ENV APP_ENV="development"
 
 COPY . .
 
-CMD ["python", "app.py"]
+CMD ["tail", "-f", "/dev/null"]
