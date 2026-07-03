@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MVC Application</title>
+
+    <style>
+
+        body{
+            font-family:Arial;
+            margin:40px;
+            background:#f4f4f4;
+        }
+
+        .card{
+
+            width:700px;
+            margin:auto;
+
+            background:white;
+
+            padding:30px;
+
+            border-radius:10px;
+
+            box-shadow:0 0 10px rgba(0,0,0,.2);
+
+        }
+
+        h1{
+
+            color:#0b74de;
+
+        }
+
+        h2{
+
+            color:green;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>MVC APPLICATION</h1>
+
+<h2>VERSI 2.0 - STABIL</h2>
+
+<p><b>Halo {{ user }}</b></p>
+
+<p>Environment : {{ env }}</p>
+
+<hr>
+
+<h3>Produk</h3>
+
+<ul>
+
+{% for item in products %}
+
+<li>{{ item.name }}</li>
+
+{% endfor %}
+
+</ul>
+
+<h3>Data API</h3>
+
+<ul>
+
+{% for user in users %}
+
+<li>{{ user.name }}</li>
+
+{% endfor %}
+
+</ul>
+
+</div>
+
+</body>
+
+</html>
